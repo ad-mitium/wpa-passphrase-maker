@@ -6,7 +6,7 @@ It is intended to output a template file for configuring wireless network connec
 
 ## Example
 
-Excuting:
+Executing:
 <pre>home_user:~ $ wpa_passphrase_maker.sh</pre>
 
 <pre><code>Executing...
