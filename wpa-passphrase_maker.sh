@@ -15,6 +15,9 @@ stars=**********
 
 sed -i -e "s/\#psk=.*/\#psk=\"$stars\"/" $wpa_file
 
+wpa_phrase=$stars
+
 echo "Output written to "$wpa_file":"
 cat $wpa_file
 echo "Copy this file to /etc directory after adding neccesary info"
+# echo "Contents of wpa_phrase: $wpa_phrase"
